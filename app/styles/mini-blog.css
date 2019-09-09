@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  @apply text-gray-900 font-normal;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  color: inherit;
+}
+
+h1 {
+  @apply font-bold text-2xl;
+}
